@@ -1,12 +1,14 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+	    color: #AA7009;
 }
 
 html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #1D1764;
+
 }
 
 main {

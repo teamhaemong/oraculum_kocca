@@ -62,3 +62,17 @@ main > h1 {
     width: 100%;
     opacity: 0.5;
 }
+
+#twchatdiv {
+    z-index: 6;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+    width: 100%;
+    opacity: 0.5;
+    margin-right: 100px;
+}

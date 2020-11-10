@@ -23,3 +23,42 @@ main > h1 {
   text-align: center;
   font-size: 3.5em;
 }
+
+#chatdiv {
+    z-index: 5;
+   height: 80%
+   position: relative;
+    margin-top: 150px;
+    position: fixed;
+    align-content: center;
+    width: 100%;
+    height: 0px;
+    opacity: 0.8;
+}
+
+
+#moviediv {
+    z-index: 2;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.5;
+}
+
+#vimeodiv {
+    z-index: 1;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.5;
+}

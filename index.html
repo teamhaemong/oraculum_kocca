@@ -4,24 +4,20 @@
 	  <link rel="stylesheet" type="text/css" href="styles.css">
     <title>ORACULUM | teamhaemong</title>
 
-	  <frameset rows="100px,700px,*" >
-		  <frame name="top" src="/html/top.html" frameborder="0">
-		  <frameset cols="*,300px,*" >
-			<frame name="left" src="/html/left.html" frameborder="0">
-			<frame name="center"  src="/html/chat.html" frameborder="0" >
-			<frame name="right" src="/html/right.html" frameborder="0">
-		</frameset>
-		  <frame name="middle"  src="/html/middle.html" frameborder="0" >
-		  <frame name="bottom"  src="/html/bottom.html" frameborder="0" >
 
-	 
-
-	  </frameset>
-	  <noframes>
-	  </noframes>
 
   </head>
   <body>
-
+	  <div id="chatdiv">
+	<iframe src="/html/chat.html" frameborder="0" allowfullscreen="true" scrolling="no" height="700" width="400" ></iframe>
+	  </div>
+		 
+	<div id="moviediv">
+		<iframe src="https://player.twitch.tv/?channel=hyesii&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe>
+ 	</div>
+	
+	  <div id="vimeodiv">
+		<iframe src="https://player.vimeo.com/video/user46756027?autoplay=1&loop=1&autopause=0" frameborder="0" allowfullscreen="true" scrolling="no" height="100%" width="100%"></iframe>
+ 	</div>  
   </body>
 </html>
